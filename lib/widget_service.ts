@@ -22,7 +22,7 @@ export class WidgetService extends Construct {
     const handler = new lambda.Function(this, "WidgetHandler", {
       runtime: lambda.Runtime.NODEJS_18_X,
       code: lambda.Code.fromAsset("resources"),
-      handler: "widgets.main",
+      handler: "widgets.handler",
       environment: {
         BUCKET: bucket.bucketName
       }
