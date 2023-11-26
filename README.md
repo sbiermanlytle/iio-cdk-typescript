@@ -1,3 +1,8 @@
+##
+
+IioCdkTypescriptStack.WidgetswidgetsapiEndpoint5B785C68 =
+https://vqutlqr2u4.execute-api.us-east-1.amazonaws.com/prod/
+
 # Welcome to your CDK TypeScript project
 
 This is a blank project for CDK development with TypeScript.
